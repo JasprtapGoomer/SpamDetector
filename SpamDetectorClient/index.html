@@ -1,0 +1,58 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Spam Detection Results</title>
+  <meta name="description" content="View the spam detection results and statistics.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="Spam Detection Results">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="#">
+  <meta property="og:image" content="tile.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="tile.png">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+<body>
+<div id="sidebar">
+  <h1>Spam Detector Dashboard</h1>
+  <nav>
+    <ul>
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+</div>
+<div id="main-content">
+  <h2>Spam Analysis Dashboard</h2>
+  <table id="results-table">
+    <thead>
+    <tr>
+      <th>File</th>
+      <th>Spam Probability</th>
+      <th>Class</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Test results will be populated here -->
+    </tbody>
+  </table>
+</div>
+<aside id="model-performance">
+  <h2>Performance of the model</h2>
+  <p>Accuracy: <span id="accuracy-value">Loading...</span></p>
+  <p>Precision: <span id="precision-value">Loading...</span></p>
+</aside>
+<script src="js/plugins.js" crossorigin="anonymous"></script>
+<script src="js/main.js" crossorigin="anonymous"></script>
+</body>
+</html>

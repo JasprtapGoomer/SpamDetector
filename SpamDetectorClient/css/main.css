@@ -1,0 +1,104 @@
+
+body {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+#sidebar {
+  width: 200px;
+  background: #333;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+}
+
+#sidebar h1 {
+  margin-bottom: 2rem;
+}
+
+#sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+#sidebar nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 0;
+  display: block;
+}
+
+#main-content {
+  flex-grow: 1;
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+#main-content h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+table {
+
+}
+
+th, td {
+  padding: 0.5rem; /* Adjust padding as needed */
+  text-align: left; /* Align text to the left or center as per your design */
+  /* Other styling as needed */
+}
+
+th {
+  background-color: #333; /* Dark background for the header */
+  color: white; /* White text color */
+  /* Other header styling as needed */
+}
+#results-container {
+  margin-right: 300px; /* width of the model-performance */
+}
+
+#model-performance {
+  width: 300px;
+  background: #e3e3e3;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100vh;
+}
+
+#model-performance h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+  #sidebar, #model-performance, footer {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  #main-content {
+    margin-right: 0;
+  }
+
+  #results-container {
+    margin-bottom: 60px; /* footer height */
+  }
+}
+
+

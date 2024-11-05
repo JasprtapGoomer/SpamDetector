@@ -1,0 +1,13 @@
+.team-member {
+  background: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  margin-top: 0;
+}
+
+.team-member p {
+  margin-bottom: 5px;
+}
